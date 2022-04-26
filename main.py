@@ -13,6 +13,17 @@ import sympy
 
 
 def extract_coeffs(expr, symbols):
+    """
+    Извлекает коэффициенты из sympy выражения
+        Параметры:
+            expr (sympy expression): уравнение или неравенство в виде sympy выражения
+            symbols (List[sympy.Symbol]): список из переменных, коэффициенты перед которыми извлекаются
+        Возвращаемое значение:
+            res (List[float]): список коэффициентов
+            
+    """
+    res = [float(expr.coeff(symbol)) for symbol in symbols]
+    return res
     return [float(expr.coeff(symbol)) for symbol in symbols]
 
 
@@ -20,6 +31,15 @@ def extract_coeffs(expr, symbols):
 
 
 def solve():
+    """
+    Запрашивает у пользователя входную функцию, её аргументы, ограничения, начальную точку
+    и находит точку экстремума при заданных ограничениях
+     Параметры:
+        None
+     Возвращаемое значение:
+        opt.x (np.array): координаты точки экстремума
+     
+    """
     method = int(input(
         """
         Выберите метод решения:
