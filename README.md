@@ -1,12 +1,12 @@
 <html>
 	<body>
-		<h2>Оптимизационные задачи в машинном обучении. <br> Проект № : .</h2>
+		<h2>Оптимизационные задачи в машинном обучении. <br> Проект № 5: Метод внутренней точки. .</h2>
 		<hr>
 		<h3>Документация</h3>
 		<h4>Всю документацию о проекте вы можете найти <a href = "documentation.pdf">здесь</a></h4>
 		<hr>
 		<h3>Jira</h3>
-		<h4>Наша <a href = "">Аgile-доска</a> в <a href = "https://www.atlassian.com/ru/software/jira">Jira</a></h4>
+		<h4>Наша <a href = "https://opml.atlassian.net/jira/software/projects/KE5/boards/4">Аgile-доска</a> в <a href = "https://www.atlassian.com/ru/software/jira">Jira</a></h4>
 		<hr>
 		<h3>Решение задач</h3>
 		<h4>Решить свою задачу можно в <a href="https://colab.research.google.com/drive/1CfLGxOzWVDc_NHeVoZRxVxzS24kcA4UK?usp=sharing">Google Colab</a> </h4>
